@@ -19,7 +19,7 @@ resource "aws_subnet" "vpc2-sub" {
 }
 
 resource "aws_subnet" "sec1-sub" {
-  vpc_id     = aws_vpc.main2.id
+  vpc_id     = aws_vpc.main3.id
   cidr_block = "172.16.0.0/24"
   availability_zone = "af-south-1a"
 

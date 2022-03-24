@@ -1,5 +1,5 @@
 resource "aws_vpc_endpoint_service" "gwlb-endpointservice" {
-  acceptance_required        = true
+  acceptance_required        = false
     depends_on = [
     aws_lb.gateway_lb
   ]

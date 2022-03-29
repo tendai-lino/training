@@ -1,5 +1,5 @@
 provider "aws" {
-region = data.aws_region.current.name
+region = "af-south-1"
 
 }
 

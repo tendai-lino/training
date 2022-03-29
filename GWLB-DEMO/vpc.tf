@@ -1,5 +1,5 @@
 provider "aws" {
-region = "af-south-1"
+region = "af-south-1"     # PLEASE CHANGE TO YOUR REGION
 
 }
 
